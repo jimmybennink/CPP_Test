@@ -1,4 +1,4 @@
-from fooWrapper import Foo
+from Controllers.Wrapper import PX4Controllers
 
-f = Foo()
-f.bar()
+f = PX4Controllers()
+f.Run_Controller()
