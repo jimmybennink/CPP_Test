@@ -11,5 +11,8 @@ import keyboard  # Halting
 f = PX4Controllers()
 f.Run_Controller()
 
-float_results = f.Floats(3.3)
+inp1 = 4.35;
+inp2 = 6.32;
+
+float_results = f.Floats([inp1, inp2])
 print(float_results)
