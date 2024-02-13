@@ -1,5 +1,9 @@
 {
     "files.associations": {
         "tuple": "cpp"
+    },
+
+    "terminal.integrated.env.windows": {
+        "PATH": "C:/msys64/mingw64/bin"
     }
 }
